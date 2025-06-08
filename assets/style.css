@@ -83,6 +83,7 @@ body {
   font-weight: 800;
   font-style: italic;
   width: 60%;
+  font-size: 16px;
 }
 #about-me p {
   width: 80%;
@@ -120,10 +121,14 @@ body {
 }
 .gallery-item {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  aspect-ratio: 1/1;
   object-fit: cover;
   padding: 0.5em;
+}
+img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .mg-prev,
 .mg-next {
@@ -147,6 +152,7 @@ body {
   font-family: Spectral;
   font-style: italic;
   font-weight: 300;
+  font-size: 40px;
 }
 .quote__author {
   font-family: Spectral;
