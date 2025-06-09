@@ -193,6 +193,14 @@ img {
   justify-content: space-between;
   z-index: 1;
 }
+.contact-info {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 20px;
+}
 
 #contact {
   margin: auto;
@@ -255,6 +263,9 @@ input[type="submit"] {
   #contact .container {
     align-items: center;
   }
+  .contact-info {
+    align-items: center;
+  }
   .about-me__title {
     margin-top: 0;
     margin-bottom: 1em;
@@ -286,6 +297,9 @@ input[type="submit"] {
     margin-top: 1em;
   }
   #services .container {
+    flex-direction: column;
+  }
+  .contact-info {
     flex-direction: column;
   }
   .service {
